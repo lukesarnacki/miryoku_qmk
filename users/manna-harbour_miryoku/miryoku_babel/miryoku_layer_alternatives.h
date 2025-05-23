@@ -28,6 +28,7 @@
 #define ALT_L LALT_T(KC_L)
 #define GUI_SCLN RGUI_T(KC_SCLN)
 #define CTL_SCLN RCTL_T(KC_SCLN)
+#define GUI_QUOT RGUI_T(KC_QUOT)
 
 #define LAYER_BASE_NIX \
 KC_Q,              AGR_W,              KC_E,              KC_R,              KC_T,              KC_Y,              KC_U,              KC_I,              AGR_O,              KC_P,              \
@@ -73,13 +74,13 @@ U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              KC_MSTP,           KC_MPLY,           KC_MUTE,           U_NP,              U_NP
 
 #define LAYER_SYM_NIX \
-KC_GRV,           KC_AMPR,           KC_ASTR,           KC_PERC,           KC_PLUS,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
+KC_GRV,           KC_AMPR,           KC_ASTR,           KC_PERC,           U_NA,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
 KC_EQL,           KC_CIRC,           KC_MINS,           KC_UNDS,           KC_DLR,           KC_RALT,              KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
-KC_TILD,          KC_EXLM,           KC_AT,             KC_HASH,           KC_PIPE,           U_NA,              TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  KC_ALGR,           U_NA,              \
+KC_TILD,          KC_EXLM,           KC_AT,             KC_HASH,           U_NA,           U_NA,              TD(U_TD_U_SYM),    TD(U_TD_U_MOUSE),  KC_ALGR,           U_NA,              \
 U_NP,             U_NP,              U_NA,              U_NA,              KC_TAB,           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define LAYER_SYM2_NIX \
-TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,    U_NA, KC_LCBR,           KC_RCBR,           U_NU,               KC_PIPE,               \
+TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,    U_NA, KC_LCBR,           KC_RCBR,           KC_PLUS,               KC_PIPE,               \
 KC_LGUI,           KC_LALT,           KC_LCTL,           KC_LSFT,           KC_RALT, U_NA, KC_LBRC,           KC_RBRC,           KC_DQT,             KC_QUOT,               \
 U_NA,              KC_ALGR,           TD(U_TD_U_FUN),    TD(U_TD_U_MEDIA),  U_NA,    KC_LABK, KC_LPRN,           KC_RPRN,           KC_RABK,               KC_BSLS,               \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,    U_NA, U_NU,              U_NU,              U_NU,               U_NP  
@@ -88,7 +89,7 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 U_NA,           KC_7,              KC_8,              KC_9,              U_NA,           U_NA,              TD(U_TD_U_BASE),   TD(U_TD_U_EXTRA),  TD(U_TD_U_TAP),    TD(U_TD_BOOT),     \
 U_NA,            KC_4,              KC_5,              KC_6,              U_NA,              KC_RALT,           KC_LSFT,           KC_LCTL,           KC_LALT,           KC_LGUI,           \
 U_NA,            KC_1,              KC_2,              KC_3,              U_NA,           U_NA,              TD(U_TD_U_NUM),    TD(U_TD_U_NAV),    KC_ALGR,           U_NA,              \
-U_NP,              U_NP,              KC_0,           KC_BSPC,           MO(U_MEDIA),           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
+U_NP,              U_NP,              U_NA,           KC_0,           MO(U_MEDIA),           U_NA,              U_NA,              U_NA,              U_NP,              U_NP
 
 #define LAYER_FUN_NIX \
 TD(U_TD_BOOT),     TD(U_TD_U_TAP),    TD(U_TD_U_EXTRA),  TD(U_TD_U_BASE),   U_NA,              KC_PSCR,           KC_F7,             KC_F8,             KC_F9,             KC_F12,            \

@@ -4,12 +4,14 @@
 SRC += features/achordion.c
 EXTRAFLAGS += -flto
 
-MOUSEKEY_ENABLE = yes
+COMBO_ENABLE = yes
+MOUSEKEY_ENABLE = no
 EXTRAKEY_ENABLE = yes
 AUTO_SHIFT_ENABLE = no
 TAP_DANCE_ENABLE = yes
 CAPS_WORD_ENABLE = yes
 KEY_OVERRIDE_ENABLE = yes
+RGBLIGHT_ENABLE = yes
 
 INTROSPECTION_KEYMAP_C = manna-harbour_miryoku.c # keymaps
 

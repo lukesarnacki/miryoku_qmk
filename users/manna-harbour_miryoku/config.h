@@ -7,6 +7,8 @@
 
 #include "custom_config.h"
 
+#define COMBO_COUNT 1
+
 // default but used in macros
 #undef TAPPING_TERM
 #define TAPPING_TERM 150
@@ -28,6 +30,12 @@
 
 // Enable rapid switch from tap to hold, disables double tap hold auto-repeat.
 #define TAPPING_FORCE_HOLD
+
+// experimental
+#define PERMISSIVE_HOLD_PER_KEY
+
+// allow tap / hold combos
+#define COMBO_MUST_TAP_PER_COMBO
 
 // Mouse key speed and acceleration.
 #undef MOUSEKEY_DELAY
